@@ -1,6 +1,10 @@
 name = "montahd-migration"
-pages_build_output_dir = "dist"
 compatibility_date = "2025-11-01"
 
-# 纯静态，无 Functions；如需绑定自定义域，在 Cloudflare 面板
-# Workers & Pages → montahd-migration → Custom domains 里添加。
+# 纯静态资源部署（Workers Static Assets），构建命令留空，
+# deploy 命令沿用默认的 `npx wrangler deploy`。
+[assets]
+directory = "./dist"
+not_found_handling = "404-page"
+
+# 自定义域：Workers & Pages → 本项目 → Settings → Domains & Routes
