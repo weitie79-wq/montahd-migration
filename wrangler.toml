@@ -1,0 +1,6 @@
+name = "montahd-migration"
+pages_build_output_dir = "dist"
+compatibility_date = "2025-11-01"
+
+# 纯静态，无 Functions；如需绑定自定义域，在 Cloudflare 面板
+# Workers & Pages → montahd-migration → Custom domains 里添加。

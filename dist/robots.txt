@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# monta HD · 站点迁移公告
+# 新站：https://montahd.com

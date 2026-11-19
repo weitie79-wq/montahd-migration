@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>404 · monta HD 已迁至 montahd.com</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0B0D11">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230B0D11'/%3E%3Cpath d='M14 46V18h6l12 14 12-14h6v28h-6V28l-12 14-12-14v18z' fill='%23FFB020'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#0B0D11;--paper:#F7F8FA;--amber:#FFB020;--muted:#8A909C;--line:rgba(247,248,250,.10);
+    --sans:"Montserrat","PingFang SC","Noto Sans SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{min-height:100svh;background:var(--ink);color:var(--paper);font-family:var(--sans);
+    display:flex;flex-direction:column;padding:clamp(20px,4vw,40px) clamp(20px,5vw,64px);
+    -webkit-font-smoothing:antialiased;overflow-x:hidden}
+  body::before{content:"";position:fixed;inset:-20% -20% auto -20%;height:80vh;pointer-events:none;
+    background:radial-gradient(55% 55% at 50% 0%,rgba(255,176,32,.15),transparent 70%);z-index:0}
+  .wrap{position:relative;z-index:1;max-width:860px;margin:0 auto;width:100%;
+    flex:1;display:flex;flex-direction:column;justify-content:center;padding:40px 0}
+  .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit;margin-bottom:clamp(36px,7vh,64px)}
+  .brand svg{width:32px;height:32px}
+  .brand span{font-weight:800;font-size:18px;letter-spacing:-.02em}
+  .brand b{color:var(--amber)}
+  .code{font-family:var(--mono);font-size:clamp(64px,13vw,120px);line-height:.9;font-weight:600;
+    color:var(--amber);letter-spacing:-.05em;opacity:.92}
+  h1{font-size:clamp(26px,4.4vw,40px);line-height:1.2;letter-spacing:-.03em;font-weight:800;margin:22px 0 14px}
+  p{color:#C3C8D2;font-size:15.5px;line-height:1.8;max-width:34em}
+  .acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;height:50px;padding:0 20px;
+    border-radius:12px;font-size:14px;font-weight:600;text-decoration:none;transition:background .2s,border-color .2s,color .2s}
+  .btn svg{width:15px;height:15px}
+  .primary{background:var(--amber);color:#120D00}
+  .primary:hover{background:#FFC148}
+  .ghost{border:1px solid rgba(247,248,250,.14);background:rgba(247,248,250,.04);color:var(--paper)}
+  .ghost:hover{border-color:rgba(255,176,32,.55);color:var(--amber)}
+  footer{margin-top:clamp(40px,8vh,72px);padding-top:18px;border-top:1px solid var(--line);
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+  @media (max-width:640px){.acts{flex-direction:column}.btn{width:100%}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="brand" href="/" aria-label="monta HD">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#15181F"/><path d="M14 46V18h6l12 14 12-14h6v28h-6V28l-12 14-12-14v18z" fill="#FFB020"/></svg>
+    <span>monta<b>HD</b></span>
+  </a>
+
+  <div class="code">404</div>
+  <h1>这个地址已经没有内容了</h1>
+  <p>站点已迁至新域名 montahd.com。旧路径不再维护，请从首页进入或直接访问新站；如遇问题，联系 xon@montahd.com。</p>
+
+  <div class="acts">
+    <a class="btn primary" href="/">回到首页
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+    </a>
+    <a class="btn ghost" href="https://montahd.com">前往 montahd.com</a>
+    <a class="btn ghost" href="https://t.me/MontaHD1" target="_blank" rel="noopener">加入交流群</a>
+  </div>
+
+  <footer>© 2026 monta HD · xon@montahd.com</footer>
+</div>
+</body>
+</html>
