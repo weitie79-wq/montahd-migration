@@ -50,6 +50,6 @@ npx wrangler deploy
 
 - 新站：https://montahd.com
 - 交流群：https://t.me/MontaHD1
-- 支持邮箱：xon@montahd.com
+- 支持邮箱：xon@mail.montahd.com
 
 2026 monta HD.
